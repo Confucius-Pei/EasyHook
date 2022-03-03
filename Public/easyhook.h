@@ -36,10 +36,6 @@
 
 #else
 
-    #define NTDDI_VERSION           NTDDI_WIN2KSP4
-    #define _WIN32_WINNT            0x500
-    #define _WIN32_IE_              _WIN32_IE_WIN2KSP4
-
     #include <windows.h>
     #include <winnt.h>
     #include <winternl.h>
