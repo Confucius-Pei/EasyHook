@@ -1112,7 +1112,7 @@ Parameters:
 
     - InPassThruBuffer
 
-        An optional buffer containg data to be passed to the injection entry point. Such data
+        An optional buffer containing data to be passed to the injection entry point. Such data
         is available in both, the managed and unmanaged user library entry points.
         Set to NULL if no used.
 
