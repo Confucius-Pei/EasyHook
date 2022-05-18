@@ -26,22 +26,9 @@
 #ifndef _EASYHOOK_H_
 #define _EASYHOOK_H_
 
-#ifdef DRIVER
-
-    #include <ntddk.h>
-    #include <ntstrsafe.h>
-
-	typedef int BOOL;
-	typedef void* HMODULE;
-
-#else
-
-    #include <windows.h>
-    #include <winnt.h>
-    #include <winternl.h>
-
-#endif
-
+#include <windows.h>
+#include <winnt.h>
+#include <winternl.h>
 
 #ifdef __cplusplus
 extern "C"{
